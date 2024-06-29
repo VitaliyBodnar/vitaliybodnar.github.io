@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/application-details/pages/application-details-order-info-page/components/application-details-order-operations-table/application-details-order-operations-table.component.scss"],
+  "sourcesContent": [":host {\n  height: 505px;\n  display: block;\n}\n"],
+  "mappings": ";AAAA;AACE,UAAA;AACA,WAAA;;",
+  "names": []
+}

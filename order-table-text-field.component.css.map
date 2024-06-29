@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/orders/components/orders-table/components/order-table-text-field/order-table-text-field.component.scss"],
+  "sourcesContent": [".client-name {\n  white-space: pre-wrap;\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  line-height: 16px;\n  height: 100%;\n\n  &__text {\n    display: -webkit-box;\n    max-height: 30px;\n    overflow: hidden;\n    -webkit-line-clamp: 2;\n    -moz-box-orient: vertical;\n    -webkit-box-orient: vertical;\n  }\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,eAAA;AACA,WAAA;AACA,kBAAA;AACA,eAAA;AACA,eAAA;AACA,UAAA;;AAEA,CAAA;AACE,WAAA;AACA,cAAA;AACA,YAAA;AACA,sBAAA;AACA,mBAAA;AACA,sBAAA;;",
+  "names": []
+}

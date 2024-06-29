@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/application-details/pages/application-details-order-info-page/components/application-details-order-info-details/components/application-details-order-info-client-communication-form/application-details-order-info-client-communication-form.component.scss"],
+  "sourcesContent": [".form {\n  .communication-row {\n    padding: 8px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    flex-direction: row;\n\n    .communication-item {\n      display: flex;\n      flex-direction: column;\n      width: 100%;\n\n      .status {\n        display: flex;\n        justify-content: space-between;\n        flex-direction: row;\n      }\n    }\n  }\n}\n"],
+  "mappings": ";AACE,CAAA,KAAA,CAAA;AACE,WAAA;AACA,WAAA;AACA,mBAAA;AACA,eAAA;AACA,kBAAA;;AAEA,CAPF,KAOE,CAPF,kBAOE,CAAA;AACE,WAAA;AACA,kBAAA;AACA,SAAA;;AAEA,CAZJ,KAYI,CAZJ,kBAYI,CALF,mBAKE,CAAA;AACE,WAAA;AACA,mBAAA;AACA,kBAAA;;",
+  "names": []
+}

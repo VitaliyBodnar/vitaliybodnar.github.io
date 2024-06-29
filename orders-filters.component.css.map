@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/orders/components/orders-filters/orders-filters.component.scss"],
+  "sourcesContent": [".applications-filters {\n  &__search {\n    margin-block-end: 18px;\n  }\n\n  &__accordion {\n    margin-block-end: 20px;\n  }\n\n  &__list {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));\n    gap: 23px 26px;\n    margin-block-end: 20px;\n  }\n\n  &__actions {\n    display: flex;\n    justify-content: flex-end;\n    flex-wrap: wrap;\n    gap: 10px;\n  }\n}\n"],
+  "mappings": ";AACE,CAAA;AACE,oBAAA;;AAGF,CAAA;AACE,oBAAA;;AAGF,CAAA;AACE,WAAA;AACA,yBAAA,OAAA,SAAA,EAAA,OAAA,KAAA,EAAA;AACA,OAAA,KAAA;AACA,oBAAA;;AAGF,CAAA;AACE,WAAA;AACA,mBAAA;AACA,aAAA;AACA,OAAA;;",
+  "names": []
+}

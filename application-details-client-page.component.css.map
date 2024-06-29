@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/application-details/pages/application-details-client-page/application-details-client-page.component.scss"],
+  "sourcesContent": [".application-details-client-page {\n  display: flex;\n  flex-direction: column;\n  gap: 24px;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,WAAA;AACA,kBAAA;AACA,OAAA;;",
+  "names": []
+}

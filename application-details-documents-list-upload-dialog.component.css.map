@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/application-details/pages/application-details-order-info-page/components/application-details-documents-list/components/application-details-documents-list-upload-dialog/application-details-documents-list-upload-dialog.component.scss"],
+  "sourcesContent": [".applications-details-document-list-upload {\n  width: 60vw;\n\n  &__form {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));\n    gap: 23px 33px;\n    margin-block-end: 20px;\n  }\n\n  &__block {\n    display: flex;\n    margin-block-start: 33px;\n  }\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,SAAA;;AAEA,CAAA;AACE,WAAA;AACA,yBAAA,OAAA,SAAA,EAAA,OAAA,KAAA,EAAA;AACA,OAAA,KAAA;AACA,oBAAA;;AAGF,CAAA;AACE,WAAA;AACA,sBAAA;;",
+  "names": []
+}

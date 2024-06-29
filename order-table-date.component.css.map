@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/orders/components/orders-table/components/order-table-date/order-table-date.component.scss"],
+  "sourcesContent": [".date-wrapper {\n  height: 100%;\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,UAAA;AACA,WAAA;AACA,kBAAA;AACA,eAAA;;",
+  "names": []
+}
