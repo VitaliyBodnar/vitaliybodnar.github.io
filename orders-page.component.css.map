@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/pages/orders/orders-page.component.scss"],
-  "sourcesContent": ["$header-height: 75px;\n$page-padding-block: 24px;\n$table-extra-bottom-space: 15px;\n\n:host {\n  display: flex;\n  flex-direction: column;\n  height: calc(\n    100vh - $header-height - $table-extra-bottom-space -\n      ($page-padding-block * 2)\n  );\n  gap: 15px;\n}\n"],
-  "mappings": ";AAIA;AACE,WAAA;AACA,kBAAA;AACA,UAAA,KAAA,MAAA,EAAA,KAAA,EAAA,KAAA,EAAA;AAIA,OAAA;;",
-  "names": []
-}

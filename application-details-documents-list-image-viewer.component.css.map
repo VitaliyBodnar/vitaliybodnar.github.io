@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/pages/application-details/pages/application-details-order-info-page/components/application-details-documents-list/components/application-details-documents-list-file-viewer/components/application-details-documents-list-image-viewer/application-details-documents-list-image-viewer.component.scss"],
-  "sourcesContent": [".image {\n  height: 100%;\n  width: 100%;\n}\n"],
-  "mappings": ";AAAA,CAAA;AACE,UAAA;AACA,SAAA;;",
-  "names": []
-}

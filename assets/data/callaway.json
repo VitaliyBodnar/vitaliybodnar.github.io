@@ -1,0 +1,73 @@
+{
+  "homeurl": "http://rymaxinc.com",
+  "BrandID": "1124",
+  "BrandName": "Callaway",
+  "logo": "https://productimages.bslog.com/images/products/MaxSite2020/Brands/CallawayLogo.jpg",
+  "extraLink": "#/productbuilder",
+  "imglst": [
+    { "file": "https://productimages.bslog.com/images/products/MaxSite2020/Brands/CallawayHero1.jpg", "caption": "" },
+    { "file": "https://productimages.bslog.com/images/products/MaxSite2020/Brands/CallawayHero2.jpg", "caption": "" }
+  ],
+  "categorylst": [
+    {
+      "CatName": "Bags",
+      "CatID": "17250",
+      "imageName": "https://productimages.bslog.com/images/products/MaxSite2020/BrandCategories/CallawayBagsIcon.jpg",
+      "CategoryBanner": "https://productimages.bslog.com/images/products/MaxSite2020/BrandCategories/CallawayCategoryBanner.jpg"
+    },
+    {
+      "CatName": "Balls",
+      "CatID": "17205",
+      "imageName": "https://productimages.bslog.com/images/products/MaxSite2020/BrandCategories/CallawayBallsIcon.jpg",
+      "CategoryBanner": "https://productimages.bslog.com/images/products/MaxSite2020/BrandCategories/CallawayCategoryBanner.jpg"
+    },
+    {
+      "CatName": "Drivers",
+      "CatID": "17210",
+      "imageName": "https://productimages.bslog.com/images/products/MaxSite2020/BrandCategories/CallawayDriversIcon.jpg",
+      "CategoryBanner": "https://productimages.bslog.com/images/products/MaxSite2020/BrandCategories/CallawayCategoryBanner.jpg"
+    },
+    {
+      "CatName": "Fairway Woods",
+      "CatID": "17215",
+      "imageName": "https://productimages.bslog.com/images/products/MaxSite2020/BrandCategories/CallawayFairwayWoodIcon.jpg",
+      "CategoryBanner": "https://productimages.bslog.com/images/products/MaxSite2020/BrandCategories/CallawayCategoryBanner.jpg"
+    },
+    {
+      "CatName": "Golf Accessories",
+      "CatID": "17220",
+      "imageName": "https://productimages.bslog.com/images/products/MaxSite2020/BrandCategories/CallawayGolfAccessoriesIcon.jpg",
+      "CategoryBanner": "https://productimages.bslog.com/images/products/MaxSite2020/BrandCategories/CallawayCategoryBanner.jpg"
+    },
+    {
+      "CatName": "Golf GPS",
+      "CatID": "17255",
+      "imageName": "https://productimages.bslog.com/images/products/MaxSite2020/BrandCategories/CallawayGolfGPSIcon.jpg",
+      "CategoryBanner": "https://productimages.bslog.com/images/products/MaxSite2020/BrandCategories/CallawayCategoryBanner.jpg"
+    },
+    {
+      "CatName": "Hybrids",
+      "CatID": "17225",
+      "imageName": "https://productimages.bslog.com/images/products/MaxSite2020/BrandCategories/CallawayHybridsIcon.jpg",
+      "CategoryBanner": "https://productimages.bslog.com/images/products/MaxSite2020/BrandCategories/CallawayCategoryBanner.jpg"
+    },
+    {
+      "CatName": "Irons",
+      "CatID": "17230",
+      "imageName": "https://productimages.bslog.com/images/products/MaxSite2020/BrandCategories/CallawayIronsIcon.jpg",
+      "CategoryBanner": "https://productimages.bslog.com/images/products/MaxSite2020/BrandCategories/CallawayCategoryBanner.jpg"
+    },
+    {
+      "CatName": "Sets",
+      "CatID": "17245",
+      "imageName": "https://productimages.bslog.com/images/products/MaxSite2020/BrandCategories/CallawaySetsIcon.jpg",
+      "CategoryBanner": "https://productimages.bslog.com/images/products/MaxSite2020/BrandCategories/CallawayCategoryBanner.jpg"
+    },
+    {
+      "CatName": "Wedges",
+      "CatID": "17240",
+      "imageName": "https://productimages.bslog.com/images/products/MaxSite2020/BrandCategories/CallawayWedgesIcon.jpg",
+      "CategoryBanner": "https://productimages.bslog.com/images/products/MaxSite2020/BrandCategories/CallawayCategoryBanner.jpg"
+    }
+  ]
+}

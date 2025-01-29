@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/pages/application-details/pages/application-details-client-page/components/application-details-client-personal-data/application-details-client-personal-data.component.scss"],
-  "sourcesContent": [":host {\n  display: flex;\n  flex-direction: column;\n  gap: 16px;\n}\n"],
-  "mappings": ";AAAA;AACE,WAAA;AACA,kBAAA;AACA,OAAA;;",
-  "names": []
-}

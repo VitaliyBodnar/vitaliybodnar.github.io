@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/pages/application-details/pages/application-details-client-page/components/application-details-client-invoice/application-details-client-invoice.component.scss"],
-  "sourcesContent": [".history-invoice {\n  .table-section {\n    height: 505px;\n\n    &:not(:last-child) {\n      margin-bottom: 8px;\n    }\n\n    &:last-child {\n      margin-bottom: 30px;\n    }\n  }\n\n  &__title {\n    margin-bottom: 10px;\n  }\n\n  &__date-period {\n    max-width: 366px;\n    margin-bottom: 50px;\n  }\n}\n"],
-  "mappings": ";AACE,CAAA,gBAAA,CAAA;AACE,UAAA;;AAEA,CAHF,gBAGE,CAHF,aAGE,KAAA;AACE,iBAAA;;AAGF,CAPF,gBAOE,CAPF,aAOE;AACE,iBAAA;;AAIJ,CAAA;AACE,iBAAA;;AAGF,CAAA;AACE,aAAA;AACA,iBAAA;;",
-  "names": []
-}
