@@ -1,0 +1,120 @@
+@import "variables";
+
+accordion {
+  width: 100%;
+
+  .tariff-price {
+    font-size: 20px;
+    font-family: 'gilroy';
+    font-weight: 700;
+  }
+
+  .tariff-title {
+    font-size: 16px;
+    font-family: 'gilroy';
+    font-weight: 400;
+  }
+
+  ul {
+    li {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #E1E1E8;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      div:first-child {
+        font-family: 'gilroy';
+        font-weight: 700;
+        opacity: 0.5;
+        color: #001934;
+        font-size: 13px;
+        max-width: 55%;
+      }
+
+      &:before {
+        display: none;
+      }
+    }
+  }
+
+  &-group {
+    .accordion-custom {
+      background: $white;
+    }
+
+    .card {
+      border-radius: 5px !important;
+
+      &-header {
+        background: $white;
+        border-radius: 5px;
+      }
+    }
+
+    .panel-heading {
+      position: relative;
+
+      i {
+        position: absolute;
+        top: 50%;
+        transition: all 500ms ease;
+        right: 1.4rem;
+        transform: translateY(-50%);
+
+        &.is-open {
+          transform: rotate(180deg);
+        }
+      }
+    }
+
+    .panel-collapse {
+      transition: all 500ms ease;
+    }
+  }
+
+}
+
+.accordion {
+  &-custom {
+    .panel-heading {
+      padding: 0;
+      border-bottom: 0px;
+    }
+
+    ul > li {
+      justify-content: flex-start;
+      padding: 0;
+    }
+
+    .panel-body {
+      padding: 0px;
+    }
+
+    .panel-body.card-block.card-body {
+      width: calc(100% + 2px);
+      padding-left: 1px;
+      padding-right: 3px;
+    }
+  }
+}
+
+.tooltip {
+  z-index: 99999;
+}
+
+.container-fluid {
+  overflow-x: hidden; // preventing horizontal scrollbar
+}
+
+fuib-header {
+  nav {
+    &.container-fluid {
+      overflow-x: visible;
+    }
+  }
+}

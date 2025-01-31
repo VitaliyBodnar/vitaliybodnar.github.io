@@ -1,0 +1,35 @@
+{
+  "CURRENCY": {
+    "WORKING_WITH_CURRENCY": "Working with currency",
+    "EASY_CONDUCT_ECONOMIC_ACTIVITIES": "It is easy to conduct foreign economic activities together with the FUIB services. Documentary relations with the Bank are simplified and currency exchange can be done through Viber",
+    "CURRENCY_ADVISOR": "Currency Advisor",
+    "CHECK_CURRENCY_CONTRACT": "Check your currency contract and get recommendations according to currency laws",
+    "CONSULT_CURRENCY_TRANSACTIONS": "Consult on currency transactions: export / import, purchase / sale, foreign currency translation / write-off, and non-standard currency law issues",
+    "FAST_TRACK": "Fast track",
+    "USE_SERVICES": "Use fast-paced decision-making services to review and negotiate a foreign economic contract with a complete package of documents",
+    "FAST_TRACK_IT": "Fast track is the purchase and transfer of counterparty currency within one banking day.",
+    "BIDDING": "Currency bidding",
+    "STAY_UP_TO_DATE_ON_THE_TREND": "Stay up to date on the trend of currency quotes",
+    "GET_INFORMATION_FROM_BANK": "Receive up-to-date information from the Bank promptly and free of charge via Viber on changes in the market rates at the Bank, at which foreign currency trading applications can be satisfied and buy / sell",
+    "GET_CASH_IN_YOUR_ACCOUNT": "Receive cash on your current account immediately upon reconciliation",
+    "LOYALTY_PROGRAM": "Loyalty program",
+    "GET_EXCLUSIVE_MARKET_CONDITIONS": "Get exclusive market conditions for the small business segment",
+    "THE_HIGHER_YOUR_SALES": "The higher your sales / sales turnover over the past month, the better the rate is given to you automatically"
+  },
+
+  "CURRENCIES": {
+    "MAIN_TITLE": "Currency",
+    "TITLE": {
+      "ADVISOR": "Currency Advisor",
+      "FAST_TRACK": "Fast track",
+      "CURRENCY_BIDDING": "Foreign exchange trading",
+      "LOYALTY_PROGRAM": "Loyalty Program"
+    },
+    "CONTENT": {
+      "CHECK_ZED_CONTRACTS": "Check foreign trade contracts and provide clarifications on conducting foreign exchange operations as part of the Consulting service",
+      "CURRENCY_PURCHASE_TRANSFER": "Purchase and translation of currency to the counterparty within one banking day",
+      "MATCH_CURRENCY": "Coordinate the exchange rate through Viber and immediately get money into the account",
+      "HIGHER_CURRENCY_BUYING": "The greater the turnover of purchases / sales of currency, the more favorable the rate"
+    }
+  }
+}

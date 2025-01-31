@@ -1,0 +1,163 @@
+{
+  "MOBILE_APP": "Mobile app",
+  "GO_TO": "go to",
+  "REPEAT": "repeat",
+  "TO_CONTINUE_USE_MOBILE_APP": "To continue,<br/> download mobile application </br>ПУМБ Бізнес",
+  "YEP": "Yes",
+  "NO": "No",
+  "NOTIFICATION_ABOUT_TRACKING": "The site uses cookies and other technologies to provide you with a better user experience and improve the quality of marketing activities. If you agree, continue to use the site.",
+  "MORE": "Details",
+  "NAV": {
+    "TARIFFS": "Tariffs",
+    "INTERNET_BANKING": "Internet-banking",
+    "ONLINE_BANKING": "Online-banking",
+    "WORKING_WITH_CURRENCY": "Useful services",
+    "USEFUL_SERVICES": "Corinth services",
+    "USER_MANUAL": "User manual DIGITAL",
+
+  "FOOTER": {
+    "INFO_TEXT": {
+      "DAILY": "at 9 am - 6 pm daily, except public holidays *",
+      "INTERNATIONAL_CALLS": "for international calls **",
+      "SUPPORT_PAYMENT_CARD": "regarding support for payment card owners **",
+      "FREE_CHARGE_UKRAINE": "* free in Ukraine from all operators",
+      "ACCORDING_TARIFFS_OPERATORS": "* according to the tariffs of the operator",
+      "FUIB_ALL_BANKING_SERVICES": "AO PUMB. All types of banking services.",
+      "GENERAL_LICENSE_NBU": "General license of NBU No. 8-2 of February 12, 2015. Banking license of NBU No. 8 of October 6, 2011",
+      "ACTUAL_ADDRESS": "Actual address: <br> 04070, Kiev, Andreevskaya str. 4"
+    }
+  }
+},
+
+  "SUBHEADER": {
+    "MAIN_TITLE": "Open LE account in 5 minutes",
+    "TITLE": {
+      "ONE_ORDER": "1 request",
+      "ONE_MEETING": "1 meeting",
+      "ONE_MANAGER": "1 manager"
+    },
+    "CONTENT": {
+      "ONLINE_AND_YOU_WILL": "Online and you will immediately receive an account number!",
+      "TO_SIGN_CONTRACT": "to sign the contract at a convenient place and time",
+      "AT_THE_BANK_THAT_WILL": "at a Bank that can handle any business issue and always be in touch"
+    },
+    "TARIFFS": {
+      "CURRENT_ACCOUNTS": "Відкриття поточних рахунків",
+      "INTERNET_BANKING": "Інтернет-банкінг",
+      "SMS": "SMS - банкінг на 1 номер телефону",
+      "CARD_VISA": "Картка Visa Business Standard Instant<br/> PayWave Chip Card",
+      "PAYMENTS_UAH": "Платежі в гривні в межах ПУМБ",
+      "PAYMENTS_UAH_DEPENDING_ON": "Платежі в гривні за межі ПУМБ,<br/> в залежності від суми:",
+      "GET_CASH": "Зняття готівки за корпоративною<br/> карткою",
+      "CHARGING_CASH": "Зарахування готівкових коштів на<br/> власний рахунок",
+      "CASH_CHARGING": "Внесення готівкових коштів на<br/> власний рахунок через ПТКС",
+      "FOREIGN_PAYMENTS": "Платежі в іноземній валюті",
+      "BUY_FOREIGN": "Купівля іноземної валюти",
+      "TEN_PER_MONTH": "10 шт. в місяць",
+      "TILL_FIVE_THOUSAND": "до 5 000 грн.",
+      "FROM_FIVE_TILL_TEN": "від 5 000 до 100 000 грн.",
+      "SELL_FOREIGN": "Продаж іноземної валюти",
+      "THREE_UAH": "3 грн.",
+      "FROM_HUNDRED": "від 100 000 грн.",
+      "TWELVE_UAH": "12 грн.",
+      "TWO_UAH": "2 грн.",
+      "ZERO_SEVENTY_FIVE": "0,75%",
+      "ZERO_FIVE": "0,5%",
+      "ZERO_FOUR": "0,4%",
+      "FROM_ZERO_TWO": "0,2% від суми, min 10 грн",
+      "ZERO_FIFTEEN": "0,15% від суми платежу",
+      "FOR_FREE": "безкоштовно",
+      "ONE_FOR_FREE": "<strong class=\"text-red\">одна бесплатно</strong>"
+    },
+    "TARIFFS_DETAILS": "Деталі тарифу “всеDigital”",
+    "TARIFF_DIGITAL": "Тариф «всеDigital»",
+    "TARIFF_DIGITAL_DETAILS": "Детали тарифного пакета",
+    "WEB_CREATE_ACCOUNT": "Відкриття та обслуговування рахунку можливе у веб-версії банкінгу або в мобільному застосунку ПУМБ Бізнес.",
+    "TO_INSTALL_CLICK_HERE": "Для встановлення застосунку клікни сюди.",
+    "TO_CONTINUE_WITH_WEB": "Для продовження у веб-версії переходь сюди.",
+    "FIRST_MONTH_FREE": "(перший місяць безкоштовно)",
+    "TARIFF_150": "150 грн/міс.",
+    "TARIFF_FREE": "0 грн/міс.",
+    "MICROCREDITED": "(за наявності мікрокредиту)",
+    "TARIFF_OR": "або"
+  },
+
+  "INTERNET-BANKING": {
+    "MAIN_TITLE": "Online-banking",
+    "SUB_TITLE": "Internet-banking",
+    "CONTENT": {
+      "SEND_PAYMENTS_EASILY": "Easily send payments and transfer money to your personal card 24/7",
+      "USE_WORKFLOW_ONLINE": "Use online workflow and forget about going to the department",
+      "PERSONALIZE_YOUR_OFFICE": "Personalize your office using an avatar and background"
+    },
+    "MOBILE": {
+      "THIS_IS_NEW_MOBILE_APP": "is a new mobile application for Business offering fast and secure 24/7 access to finance from anywhere in the world."
+    }
+  },
+
+  "CURRENCIES": {
+    "MAIN_TITLE": "Currency",
+    "TITLE": {
+      "ADVISOR": "Currency Advisor",
+      "FAST_TRACK": "Fast track",
+      "CURRENCY_BIDDING": "Foreign exchange trading",
+      "LOYALTY_PROGRAM": "Loyalty Program"
+    },
+    "CONTENT": {
+      "CHECK_ZED_CONTRACTS": "Check foreign trade contracts and provide clarifications on conducting foreign exchange operations as part of the Consulting service",
+      "CURRENCY_PURCHASE_TRANSFER": "Purchase and translation of currency to the counterparty within one banking day",
+      "MATCH_CURRENCY": "Coordinate the exchange rate through Viber and immediately get money into the account",
+      "HIGHER_CURRENCY_BUYING": "The greater the turnover of purchases / sales of currency, the more favorable the rate"
+    }
+  },
+
+  "USEFUL_SERVICES": {
+    "MAIN_TITLE": "Useful Services",
+    "TITLE": {
+      "CONSULTATIONS": "Consultations",
+      "COUNTERPARTY_TRANSFER": "Counterparty Verification",
+      "REPORTING": "Reporting",
+      "GOOGLE_MY_BUSINESS": "Google My Business"
+    },
+    "CONTENT": {
+      "DO_BUSINESS": "Do business and the Bank will help in legal, accounting and foreign economic matters.",
+      "CHECK_INFORMATION": "Verify information about your partners in government registries.",
+      "COMPILE_REPORT": "Compile and submit PE reports online with feedback",
+      "EFFECTIVE_FREE_CHANNEL": "An effective and free channel for finding new customers along with FUIB and Google"
+    }
+  },
+
+  "AWARDS": "Awards",
+
+  "BUTTONS": {
+    "SIGN_IN": "Sign in",
+    "OPEN_ACCOUNT": "Open Account",
+    "DETAILS": "Details",
+    "ORDER": "Order",
+    "GET": "Get",
+    "CLOSE": "Close",
+    "DEMO": "Enter Demo",
+    "BACK": "Back",
+    "APPLY": "Apply",
+    "OF_COURSE": "Of course"
+  },
+
+  "ONLINE_CHAT": "Online-chat <br> for business",
+  "ANCHORS": {
+    "CURRENCY_HELPER": "Curreny Helper",
+    "FAST_TRACK": "Fast Track",
+    "FOREX": "Trading",
+    "LOYALTY": "Loyalty programm",
+    "CONSULTATIONS": "Consultations",
+    "ODB": "Opendatabot",
+    "LIGA": "Accounting Reports",
+    "GOOGLE": "Google my Business",
+    "WORKFLOW": "E-worklows",
+    "OBD": "Opendatabot",
+    "FOP": "цccounting Reports"
+  },
+  "ALERTS": {
+    "ARE_U_SURE": "Session will be interrupted, needed second authorization. Are you sure?",
+    "LEAVING_DIRTY_PAGE": "The form needs to be filled out again. Are you sure?"
+  }
+}

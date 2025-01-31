@@ -1,0 +1,197 @@
+{
+  "MICROCREDIT": {
+    "MICROCREDIT_MODALS": {
+      "CAPTION": "Loan application",
+      "BODY_CAPTION": "Filling out the questionnaire will take no more than 5 minutes",
+      "BODY_CONTENT": "You will need to answer basic questions about your business activities",
+      "CONTINUE": "Continue"
+    },
+    "SESSION_EXPIRED": "Session timed out",
+    "UNKNOWN_ERROR": "An unexpected error has occurred. Try again later. At different times, if you made a mistake, contact the business client support line 0 800 501 275 or your manager",
+    "QUESTIONNAIRE": "Анкета",
+    "CREDIT_REQUEST_FORM": {
+      "CREDIT_REQUEST": "Credit request",
+      "AMOUNT": "Credit amount",
+      "PHONE": "Phone number",
+      "TAX_ID": "RNOKPP (INN)",
+      "EMAIL": "E-mail",
+      "PERSONAL_DATA": "Consent to the processing of personal data",
+      "PRIVACY_POLICY": "Privacy policy",
+      "CONTINUE": "Continue"
+    },
+    "OTP_FORM": {
+      "ENTER_VERIFICATION_CODE": "Enter the verification code",
+      "INVALID_SMS_CODE_RETRIES_EXCEEDED": "Invalid SMS code. Retries exceeded"
+    },
+    "SHARED_DOCUMENTS_DIA": {
+      "SHARE_DOCUMENTS": "Share documents",
+      "INFORMATION_BLOCK_PHRASE_1": "Open the Action app on your mobile device",
+      "INFORMATION_BLOCK_PHRASE_2": "Scan the QR code to provide JSC \"PUMB\" documents. If available, the following will be provided: ID card or foreign passport",
+      "INFORMATION_BLOCK_PHRASE_3": "Follow the further instructions in the Diia app",
+      "INFORMATION_BLOCK_PHRASE_4": "Open the Action app on your mobile device to submit documents to FUIB JSC.<br />If available, they will be provided: ID-card or foreign passport",
+      "GENERATE_NEW_QR": "Create a QR code",
+      "INTERNAL_ERROR_MESSAGE": "An error occurred while processing information from Action. Create a new QR code"
+    },
+    "RESULT_PAGE": {
+      "APPLICATION_SUBMITTED": {
+        "TITLE": "Application submitted",
+        "BODY": "Wait for a decision or additional information to the email address you specified when submitting the application.<br />The bank may additionally request information <br />about business turnover in other banks"
+      },
+      "LIMIT_IS_AGREED": {
+        "TITLE": "Credit approved",
+        "BODY": "You have been approved for a loan. To apply, open a current account for FOP"
+      },
+      "REFUSAL": {
+        "TITLE": "Refusal",
+        "BODY": "We cannot issue you a loan at this time"
+      },
+      "ALREADY_CUSTOMER": {
+        "TITLE": "You are already a customer",
+        "BODY": "It is much easier for you to submit an application through the client-bank, menu section \"Loans\". Use your current login and password to log in"
+      },
+      "IN_PROCESS": {
+        "TITLE": "In process",
+        "BODY": "The application is under consideration at the bank. The decision will be sent<br />to e-mail and in a message to the<br />phone number (Viber or SMS)"
+      },
+      "DOCUMENTS_SENT": {
+        "TITLE": "Documents sent",
+        "BODY": "The decision will be sent to e-mail and a message to the phone number (Viber or SMS)"
+      },
+      "WAITING_DOCUMENTS": {
+        "TITLE": "There is quite a bit left...",
+        "BODY": "We need your documents to make a final decision. Please provide them using the link you received in the mail"
+      }
+    },
+    "UPLOAD_DOCUMENTS": {
+      "ACCOUNT_STATEMENT": "Account statement",
+      "ADD": "Add file",
+      "DOCUMENTS_PHOTO": "Take photos of documents through the camera in a browser",
+      "OPEN_IN_BROWSER": "Open the link in a browser",
+      "PASSPORT": "Passport",
+      "REQUIRED": "Required document",
+      "QR_DESCRIPTION": "or scan",
+      "SCAN_QR": "Scan the QR code using the smartphone’s camera",
+      "SEND_DOCUMENTS": "Documents will appear in the office, it remains to send them to the Bank",
+      "SIGN": "Sign",
+      "EXPLANATION": {
+        "ACCOUNT_STATEMENT": "On open accounts from other Banks, on which turnovers from doing business pass, for the last 12 months",
+        "ACCOUNT_STATEMENT_MOBILE": "On open accounts from other Banks, on which turnovers from doing business pass, for the last 12 months",
+        "PASSPORT": "Passport",
+        "PASSPORT_MOBILE": "Passport"
+      }
+    },
+    "QUESTIONNAIRE_STEP": {
+      "MONTHLY_NET_INCOME": "Monthly Net Income",
+      "GOALS": "Goals to which credit funds are planned to be directed",
+      "GOALS_PLACEHOLDER": "Select goals",
+      "GOAL_LIST": {
+        "PAYMENT_GOODS": "Payment for goods/raw materials/services",
+        "PURCHASE_OF_VEHICLES": "Purchase of vehicles and/or equipment",
+        "PURCHASE_OF_REAL_ESTATE": "Purchase of Real Estate",
+        "LOAN_REPAYMENT": "Loan repayment in another Bank/financial institution",
+        "OTHER_PURPOSES": "Other Purposes"
+      },
+      "GOALS_OTHER": "Other goals",
+      "GOALS_OTHER_PLACEHOLDER": "Enter goals",
+      "PLACES_OF_SALE": "Places of sale of products/services",
+      "PLACES_OF_SALE_PLACEHOLDER": "Choose places of sale",
+      "PLACES_LIST": {
+        "ABROAD": "Abroad",
+        "ALL_OVER_THE_TERRITORY_OF_UKRAINE": "All over the territory of Ukraine",
+        "IN_A_CITY_OF_REGIONAL": "In a city of regional importance",
+        "IN_THE_AREA_OF_REGIONAL_SIGNIFICANCE": "In the area(s) of regional significance",
+        "IN_CITIES_OF_HEAVENLY_SIGNIFICANCE": "In cities of regional significance",
+        "IN_URBAN_TYPE_VILLAGES": "In urban-type villages or towns"
+      },
+      "TYPE_OF_PRODUCT_SALES": "Product sales type",
+      "ONLINE": "Online",
+      "OFFLINE": "Offline",
+      "ASSETS_USED_IN_THE_BUSINESS_AND_NOT_OWNED_BY_THE_CLIENT": "Assets used in the business and not owned by the Client",
+      "ACTIVITY_IS_CARRIED_OUT_INDEPENDENTLY": "Activity is carried out independently or with other counterparties",
+      "IMPLEMENTATION_CHANNELS": "Implementation Channels",
+      "IMPLEMENTATION_CHANNELS_PLACEHOLDER": "Select implementation channels",
+      "IMPLEMENTATION_CHANNELS_LIST": {
+        "PLACEMENT_OF_ADVERTISING_ON_SPECIALIZED_SITES": "Placement of advertising on specialized sites",
+        "THROUGH_SOCIAL_NETWORKS": "Through social networks",
+        "IMPLEMENTATION_THROUGH_ONLINE_PLATFORMS": "Implementation through online platforms",
+        "IMPLEMENTATION_THROUGH_ITS_OWN_ONLINE_STORE": "Implementation through own online store"
+      },
+      "LINK_OF_THE_ONLINE_STORE": "Link to the online store",
+      "SITE_PLACEHOLDER": "www.example.com",
+      "ONLINE_SITES_WHERE_PRODUCTS_ARE_SOLD": "Online sites where products are sold",
+      "ONLINE_SITES_WHERE_PRODUCTS_ARE_SOLD_PLACEHOLDER": "Select Online Placeholders",
+      "ONLINE_SITES_WHERE_PRODUCTS_ARE_SOLD_LIST": {
+        "ROZETKA": "Rozetka",
+        "PROM": "Prom.ua",
+        "OLX": "Olx",
+        "ANOTHER_ONE": "Another"
+      },
+      "WHAT_LINK_ONLINE_SITE": "Link to main online site account",
+      "LINK_SOCIAL_NETWORK": "Link to the main page in the social network for business activities",
+      "POINTS_OF_SALE_OF_GOODS_AND_SERVICES": "Points of sale of goods and services",
+      "POINTS_OF_SALE_OF_GOODS_AND_SERVICES_PLACEHOLDER": "Select sales points",
+      "POINTS_OF_SALE_LIST": {
+        "FROM_WAREHOUSES_DELIVERY_TO_BUYERS_LARGE_RETAIL_CHAINS": "From warehouses and/or delivery to buyers, large retail chains",
+        "SMALL_SHOPS_KIOSKS_TRADING_TRAYS": "Small Shops/Kiosks/Trading Trays",
+        "SERVICE_POINTS": "Service points (service stations, hairdressers, etc.)",
+        "OTHER_IMPLEMENTATION_POINTS": "Other Implementation Points"
+      },
+      "NUMBER_OF_POINTS": "Number of points",
+      "NUMBER_OF_POINTS_PLACEHOLDER": "Choose a number",
+      "NUMBER_OF_POINTS_LIST": {
+        "ONE": "1 realization point",
+        "TWO_THREE": "2-3 implementation points",
+        "FOUR_OR_MORE": "4 or more fulfillment points"
+      },
+      "NAME_ASSETS": "Asset Name",
+      "NAME_ASSETS_PLACEHOLDER": "Select a property name",
+      "NAME_ASSETS_LIST": {
+        "VEHICLES_CARS": "Vehicles (cars)",
+        "VEHICLES_TRUCKS": "Vehicles (trucks)",
+        "EQUIPMENT": "Equipment",
+        "REAL_ESTATE": "Real estate (industrial or warehouse)",
+        "COMMERCIAL_REAL_ESTATE": "Commercial real estate (office, shop, kiosk, etc.)",
+        "LAND_PLOTS": "Land plots (agricultural purpose)",
+        "OTHER_PLOTS_OF_LAND": "Other plots of land",
+        "OTHER_PROPERTY": "Other property"
+      },
+      "OWNED_RENTED": "Own/Rented",
+      "OWNED_RENTED_PLACEHOLDER": "Select a property type",
+      "OWNED_RENTED_LIST": {
+        "FAMILY_PROPERTY": "Family Property",
+        "COUNTERPARTIES_PROPERTY": "Property of counterparties with whom business is conducted",
+        "RENTED": "Rented"
+      },
+      "NUMBER": "Quantity",
+      "NUMBER_LIST": {
+        "ONE": "1",
+        "TWO": "2",
+        "THREE": "3",
+        "FOUR": "4",
+        "FIVE": "5",
+        "SIX": "6",
+        "SEVEN": "7",
+        "EIGHT": "8",
+        "NINE_MORE": ">= 9"
+      },
+      "ADD": "Add",
+      "NAME_ACTIVITY": "Name",
+      "NAME_ACTIVITY_PLACEHOLDER": "Enter Name/Last Name",
+      "TAX_ID": "OKPO/TIN",
+      "TAX_ID_PLACEHOLDER": "Enter OKPO/TIN",
+      "TYPE_OF_ATTACHMENT": "Attachment Type",
+      "TYPE_OF_ATTACHMENT_PLACEHOLDER": "Select attachment type",
+      "TYPE_OF_ATTACHMENT_LIST": {
+        "WIFE_HUSBAND": "Wife/Husband",
+        "FATHER_MATHER": "Father/Mother",
+        "BROTHER_SISTER": "Brother/Sister",
+        "RELATIVE": "Relative",
+        "BUSINESS_PARTNER": "Business Partner",
+        "EMPLOYEE": "Employee",
+        "COMPANY_THAT_IS_OWNED": "Company that is owned/partially owned",
+        "COMPANY_WHERE_IS_MANAGER": "Company where the manager is",
+        "COMPANY_OWNED_BY_RELATIVE": "Company owned by relative"
+      }
+    }
+  }
+}

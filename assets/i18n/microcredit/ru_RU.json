@@ -1,0 +1,199 @@
+{
+  "MICROCREDIT": {
+    "MICROCREDIT_MODALS": {
+      "CAPTION": "Заявка на кредит",
+      "BODY_CAPTION": "Заповнення анкети займе не більше 5 хвилин",
+      "BODY_CONTENT": "Вам потрібно буде відповісти на основні питання про вашу бізнес-діяльність",
+      "CONTINUE": "Продолжить"
+    },
+    "QUESTIONNAIRE": "Анкета",
+    "CREDIT_REQUEST_FORM": {
+      "CREDIT_REQUEST": "Заява на кредит",
+      "AMOUNT": "Сума кредиту",
+      "PHONE": "Номер телефону",
+      "TAX_ID": "РНОКПП (ІПН)",
+      "EMAIL": "E-mail",
+      "PERSONAL_DATA": "Надаю згоду на обробку персональних даних та на отримання від бюро кредитних історій моєї кредитної історії; погоджуюсь з",
+      "PRIVACY_POLICY": "Політикою конфіденційності",
+      "CONTINUE": "Продовжити"
+    },
+    "RESULT_PAGE": {
+      "APPLICATION_SUBMITTED": {
+        "TITLE": "Заявку подано",
+        "BODY": "Очікуйте рішення або додаткову інформацію на електронну адресу, зазначену вами при подачі заявки.<br />Банк може додатково запросити інформацію <br />про бізнес-обороти в інших банках"
+      },
+      "LIMIT_IS_AGREED": {
+        "TITLE": "Кредит погоджено",
+        "BODY": "Вам схвалений кредит. Для оформлення відкрийте поточний рахунок для ФОП"
+      },
+      "REFUSAL": {
+        "TITLE": "Відмова",
+        "BODY": "На даний момент ми не можемо видати вам кредит"
+      },
+      "ALREADY_CUSTOMER": {
+        "TITLE": "Ви вже є клієнтом",
+        "BODY": "Вам набагато простіше подати заявку через клієнт-банк, розділ меню “Кредити“. Для входу використовуйте ваш діючий логін та пароль"
+      },
+      "IN_PROCESS": {
+        "TITLE": "В роботі",
+        "BODY": "Заявка на розгляді в банку. Рішення буде відправено<br />на електронну пошту та у повідомленні на номер<br />телефону (Viber або смс)"
+      },
+      "DOCUMENTS_SENT": {
+        "TITLE": "Документи відправлені",
+        "BODY": "Рішення буде відправено на електронну пошту та повідомлення на номер телефону (Viber або смс)"
+      },
+      "WAITING_DOCUMENTS": {
+        "TITLE": "Залишилось зовсім трохи...",
+        "BODY": "Нам потрібні ваші документи, щоб ухвалити остаточне рішення. Будь ласка, надайте їх за посиланням, яке прийшло вам на пошту"
+      }
+    },
+    "UPLOAD_DOCUMENTS": {
+      "ACCOUNT_STATEMENT": "Виписка по рахунку",
+      "ADD": "Додати файл",
+      "DOCUMENTS_PHOTO": "Сфотографуйте документи через камеру в браузері",
+      "OPEN_IN_BROWSER": "Відкрийте посилання в браузері",
+      "PASSPORT": "Паспорт",
+      "REQUIRED": "Обов'язковий документ",
+      "QR_DESCRIPTION": "або відскануйте",
+      "SCAN_QR": "Відскануйте QR-код за допомогою камери смартфону",
+      "SEND_DOCUMENTS": "Документи з'являться в кабінеті, залишається надіслати їх до Банку",
+      "SIGN": "Підписати",
+      "EXPLANATION": {
+        "ACCOUNT_STATEMENT": "По відкритих рахунках в інших Банках, по яким проходять обороти від ведення бізнесу, за останні 12 місяців",
+        "ACCOUNT_STATEMENT_MOBILE": "По відкритих рахунках в інших Банках, по яким проходять обороти від ведення бізнесу, за останні 12 місяців",
+        "PASSPORT": "стр. 1, 2, а також ті, які містять: актуальну фотокартку з датою її вклеювання і актуальне місце проживання",
+        "PASSPORT_MOBILE": "стр. 1, 2, а також ті, які містять: актуальну фотокартку з датою її вклеювання і актуальне місце проживання"
+      }
+    },
+    "QUESTIONNAIRE_STEP": {
+      "SERIES_AND_NUMBER": "Cерія та номер паспорту",
+      "PASSPORT_PLACEHOLDER": "СМ456456",
+      "GOALS": "На які цілі планується направити кредитні кошти",
+      "GOAL_LIST": {
+        "PAYMENT_GOODS": "Оплата товару/сировини/послуг",
+        "PURCHASE_OF_VEHICLES": "Придбання транспортних засобів та/або обладнання",
+        "PURCHASE_OF_REAL_ESTATE": "Придбання нерухомості",
+        "LOAN_REPAYMENT": "Погашення кредиту в іншому Банку/фінансовій установі",
+        "EXPANSION_OF_BUSINESS": "Розширення бізнес діяльності",
+        "OTHER_PURPOSES": "Інші цілі"
+      },
+      "ACTUAL_TYPE_OF_ACTIVITY": "Фактичний вид діяльності",
+      "ACTIVITY_LIST": {
+        "CONSTRUCTION": "Будівництво",
+        "MINING_INDUSTRY": "Видобувна промісловість",
+        "PRODUCTION_OF_NON-FOOD_PRODUCTS": "Виробництво непродовольчих товарів",
+        "FOOD_AND_BEVERAGE_PRODUCTION": "Виробництво продуктів харчування та напоїв",
+        "PRODUCTION_OF_PRODUCTS_FOR_CONSTRUCTION": "Виробництво продукції для будівництва, ремонту, облаштування",
+        "PRODUCTION_OF_PHARMACEUTICAL_PRODUCTS": "Виробництво фармацевтичної продукції",
+        "WHOLESALE_RETAIL_TRADE_OF_FOOD": "Оптова - роздрібна торгівля продуктами харчування та напоями",
+        "WHOLESALE_RETAIL_TRADE_OF_NON-FOOD": "Оптово - роздрібна торгівля непродовольчими товарами",
+        "SERVICES_OF_HOTELS": "Послуги готелів, ресторанів, кафе",
+        "SERVICES_TO_THE_POPULATION": "Послуги населенню",
+        "AGRICULTURAL_ECONOMY": "Сільськогосподарське господарство",
+        "TRANSPORT_SERVICES": "Транспортні послуги",
+        "OTHER_TYPES_OF_PRODUCTION": "Інше види виробництва",
+        "OTHER_TYPES_OF_TRADE": "Інші види торгівлі",
+        "OTHER_TYPES_OF_SERVICES": "Інші види послуг",
+        "OTHER_SERVICES": "Інші послуги"
+      },
+      "PLACES_OF_SALE": "Місця реалізації продукції/послуг",
+      "PLACES_LIST": {
+        "ALL_OVER_THE_TERRITORY_OF_UKRAINE": "По всій території України",
+        "IN_A_CITY_OF_REGIONAL": "В місті обласного значення",
+        "IN_THE_AREA_OF_REGIONAL_SIGNIFICANCE": "В районі (районах) обласного значення",
+        "IN_CITIES_OF_HEAVENLY_SIGNIFICANCE": "В містах райнного значення",
+        "IN_URBAN_TYPE_VILLAGES": "В селах або селищах міського типу",
+        "ABROAD": "Закордоном"
+      },
+      "TYPE_OF_PRODUCT_SALES": "Тип реалізації продукції",
+      "ONLINE": "Онлайн",
+      "OFFLINE": "Офлайн",
+      "ASSETS_USED_IN_THE_BUSINESS_AND_NOT_OWNED_BY_THE_CLIENT": "Активи, що використовуються в бізнесі та не знаходяться  у власності Клієнта",
+      "ACTIVITY_IS_CARRIED_OUT_INDEPENDENTLY": "Діяльність ведеться самостійно або з іншими контрагентами",
+      "LOSS_DAMAGE_TO_PROPERTY": "Чи була втрата/пошкодження майна",
+      "DAMAGE_LIST": {
+        "PROPERTY_IS_MISSING": "Майно відсутнє",
+        "WAS_NOT": "Не було",
+        "COMPLETE_DESTRUCTION_OF_REAL_ESTATE": "Було повне знищення майна нерухомого майна",
+        "COMPLETE_DESTRUCTION_OF_MOVABLE_PROPERTY": "Було повне знищення майна рухомого майна",
+        "PARTIAL_DAMAGE_TO_IMMOVABLE_PROPERTY": "Було часткове пошкодження нерухомого майна",
+        "PARTIAL_DAMAGE_TO_MOVABLE_PROPERTY": "Було часткове пошкодження рухомого майна"
+      },
+      "BUSINESS_RELOCATION": "Чи була релокація бізнесу",
+      "BUSINESS_RELOCATION_LIST": {
+        "BUSINESS_IS_NOT_TIED_TO_A_PHYSICAL_LOCATION": "Бізнес не прив'язаний до фізичного місця",
+        "WAS_NOT": "Не було",
+        "PERIOD_OF_ACTIVE_HOSTILITIES_BUT_RETURN": "Була на період активних бойових дій, але потім було повернення",
+        "PARTIAL_RELOCATION_OF_BUSINESS": "Здійсненна часткова релокація бізнесу"
+      },
+      "IMPLEMENTATION_CHANNELS": "Канали реалізації",
+      "IMPLEMENTATION_CHANNELS_LIST": {
+        "PLACEMENT_OF_ADVERTISING_ON_SPECIALIZED_SITES": "Розміщення реклами на спеціалізованих сайтах",
+        "THROUGH_SOCIAL_NETWORKS": "Через соціальні мережі",
+        "IMPLEMENTATION_THROUGH_ONLINE_PLATFORMS": "Реалізація через онлайн площадки: Rozetka, Prom.ua, Olx, тощо",
+        "IMPLEMENTATION_THROUGH_ITS_OWN_ONLINE_STORE": "Реалізація через власний інтернет магазин"
+      },
+      "LINK_OF_THE_ONLINE_STORE": "Посилання або назва онлайн магазину",
+      "SITE_PLACEHOLDER": "www.example.com",
+      "ONLINE_SITES_WHERE_PRODUCTS_ARE_SOLD": "Перелік онлайн площадок де реалізується продукція",
+      "ONLINE_SITES_WHERE_PRODUCTS_ARE_SOLD_LIST": {
+        "ROZETKA": "Rozetka",
+        "PROM": "Prom.ua",
+        "OLX": "Olx",
+        "ANOTHER_ONE": "Інша"
+      },
+      "WHAT_LINK_ONLINE_SITE": "Під якою назвою ведеться реалізація через онлайн площадку або посилання на кабінет",
+      "LINK_SOCIAL_NETWORK": "Посилання на сторінку в соцмережі, які використовуються для бізнес діяльності",
+      "POINTS_OF_SALE_OF_GOODS_AND_SERVICES": "Точки реалізації товарів та послуг",
+      "POINTS_OF_SALE_LIST": {
+        "FROM_WAREHOUSES_DELIVERY_TO_BUYERS_LARGE_RETAIL_CHAINS": "Зі складів та/або доставку покупцям, великим торгівельним мережам",
+        "SMALL_SHOPS_KIOSKS_TRADING_TRAYS": "Невеликі магазини/кіоски/торговельні лотки",
+        "SERVICE_POINTS": "Точки  надання послуг (СТО, перукарні, тощо)",
+        "OTHER_IMPLEMENTATION_POINTS": "Інші точки реалізації"
+      },
+      "NUMBER_OF_POINTS": "Кількість точок",
+      "NUMBER_OF_POINTS_LIST": {
+        "ONE": "1 точка реалізації",
+        "TWO_THREE": "2-3 точки реалізації",
+        "FOUR_OR_MORE": "4 та більше точок реалізації"
+      },
+      "NAME_ASSETS": "Назва майна",
+      "NAME_ASSETS_LIST": {
+        "VEHICLES_CARS": "Транспортні засоби (легкові)",
+        "VEHICLES_TRUCKS": "Транспортни засоби (грузові)",
+        "EQUIPMENT": "Обладнання",
+        "REAL_ESTATE": "Нерухоме майно (промислові або складські приміщення)",
+        "LAND_PLOTS": "Земельні ділянки (с/х призначення)",
+        "OTHER_PLOTS_OF_LAND": "Земельні ділянки інші",
+        "OTHER_PROPERTY": "Інше майно"
+      },
+      "OWNED_RENTED": "Власне/орендоване",
+      "OWNED_RENTED_LIST": {
+        "FAMILY_PROPERTY": "Власність родини",
+        "COUNTERPARTIES_PROPERTY": "Власність контрагенів з якими ведеться діяльність"
+      },
+      "NUMBER": "Кількість",
+      "NUMBER_LIST": {
+        "ONE": "1",
+        "TWO": "2",
+        "THREE": "3",
+        "FOUR": "4",
+        "FIVE_MORE": "Більше 5"
+      },
+      "ADD": "Додати",
+      "NAME_ACTIVITY": "Назва/ПІБ",
+      "TAX_ID": "ОКПО/ІПН",
+      "TYPE_OF_ATTACHMENT": "Тип пов'язанності",
+      "TYPE_OF_ATTACHMENT_LIST": {
+        "WIFE_HUSBAND": "Дружина/чоловік",
+        "FATHER_MATHER": "Батько/мати",
+        "BROTHER_SISTER": "Брат/сестра",
+        "RELATIVE": "Родич",
+        "BUSINESS_PARTNER": "Бізнес партнер",
+        "COMPANY_THAT_IS_OWNED": "Товариство, яке знаходиться у власності/частковій власності",
+        "COMPANY_WHERE_IS_MANAGER": "Товариство, де є керівником",
+        "COMPANY_OWNED_BY_RELATIVE": "Товариство, яке належить родичам"
+      }
+    }
+  }
+}

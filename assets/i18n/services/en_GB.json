@@ -1,0 +1,68 @@
+{
+  "SERVICES_PAGE": {
+    "ONLY_BANK_CUSTOMERS": "Only for Bank customers",
+    "U_S": "Useful Services",
+    "PROTECT_YOUR_BUSINESS": "Protect your business with consultations, document verification and a counterparty profile. Develop it with FUIB",
+    "CONSULTATIONS": "Consultations",
+    "DO_NOT_WASTE_TIME": "Do not waste time searching for specialists or visiting offices. No need to keep a specialist on staff - our advisors will be able to conduct an online consultation",
+    "THE_MAIN_ISSUES": "The main issues that the adviser can solve:",
+    "LEGAL_ADVISOR": "Legal Advisor",
+    "CHECK_BUSINESS_CONTRACT": "Check the business contract and provide recommendations in accordance with applicable law",
+    "DRAW_BUSINESS_CONTRACT": "Draw up a business contract",
+    "HELP_TO_PREPARE_OR_AMEND": "It will help to prepare or amend the necessary documents for doing business",
+    "ADVISES_OTHER_LEGAL_ISSUES": "Advises on other legal issues agreed with you",
+    "ACCOUNTING_ADVISOR": "Accounting Advisor",
+    "ADVISES_TAX_ISSUES": "Advises on tax issues",
+    "ADVISES_REPORTING": "Advises on reporting",
+    "EXPLAINS_PROCEDURE_TIMING": "Explains the procedure for the timing of payment of tax obligations and reporting",
+    "CONSULT_INDIVIDUAL_REQUESTS": "He will consult on individual requests agreed with you in the framework of entrepreneurial activity",
+    "CURRENCY_ADVISOR": "Currency Advisor",
+    "CHECK_TRADE_CONTRACT": "Check foreign trade contract and provide recommendations in accordance with currency legislation",
+    "ADVISE_EXCHANGE_OPERATIONS": "He will advise on foreign exchange operations: export / import, purchase / sale and crediting / writing off foreign currency",
+    "MAKE_AMENDMENTS_DOCUMENTS": "Will make amendments to the draft documents on trade",
+    "HELP_NON-STANDARD_ISSUES": "Will help on non-standard issues with the currency legislation",
+    "COUNTERPARTY_VERIFICATION": "Counterparty verification",
+    "SERVICE_PROVIDES_OPPORTUNITY": "The service provides an opportunity in one click to get information on the activities of your business partner:",
+    "STATUS_COUNTERPARTY": "The status of the counterparty and its registration data",
+    "NAME_FOUNDERS": "Name of the founders and authorized persons",
+    "INFORMATION_ABOUT_CURRENT_TAX": "Information about the current tax system and the availability of tax debt",
+    "COUNTERPARTY_LITIGATION": "Counterparty litigation",
+    "AVAILABILITY_EXISTING_SANCTIONS": "Availability of existing sanctions",
+    "PRESENCE_BAN_TENDER_ACTIVITIES": "The presence of a ban on tender activities",
+	"ONLINE_REPORTING": "Liga Online Reporting: REPORT",
+	"USE_CONVENIENT_ONLINE": "Connect to the service and get:",
+	"ONLINE_ACCESS": "A reliable assistant in the creation and submission of reports to the bodies of the SFS, PF, FSS and Statistics",
+	"ALWAYS_UP-TO-DATE_FORMS": "Access to the regulatory framework and webinars",
+	"BUDGET_RECONCILIATION": "Reconciliation of settlements with the budget",
+	"ACCOUNTANT_CALENDAR": "Reporting and tax calendar",
+	"CONVENIENT_ADMINISTRATION_SYSTEM": "Convenient VAT administration system",
+	"TECHNICAL_AND_INFORMATIONAL_SUPPORT": "Technical and informational support (including online chat)",
+    "GOOGLE_MY_BUSINESS": "Google My Business",
+    "EFFECTIVE_AND_FREE_CHANNEL": "Effective and free channel for finding new customers",
+    "IT_ALLOWS_YOU_TO_SHOW": "It allows you to show information about your company on Google Maps and Search to users who are nearby",
+    "ADD_YOUR_COMPANY": "Add your company to Search and Google Maps",
+    "CREATE_FREE_WEBSITE": "Create a free website",
+    "BOOST_YOUR_SALES": "Boost your sales with photos, special offers, and seasonal updates.",
+    "COMMUNICATE_WITH_CUSTOMERS": "Communicate with customers in the Feedback section to gain their trust",
+    "LEARN_BASICS": "Learn the basics of internet marketing. More details about Digital Workshop.",
+    "GET_HELP": "Get help with advertising settings * and a bonus of UAH 900 on ads from Google**",
+    "FREE_HELP": "*Free help with setting up and running AdWordsExpress advertising campaigns 0800503240 - Mon-Fri, 09: 00-18: 00. Provided that it is spent 20 UAH per day or more.",
+    "FOR_NEW_USERS": "**For new users of Google My Business and Google Ads, subject to advertising costs of 300 UAH."
+  },
+
+  "USEFUL_SERVICES": {
+    "MAIN_TITLE": "Useful Services",
+    "TITLE": {
+      "CONSULTATIONS": "Consultations",
+      "COUNTERPARTY_TRANSFER": "Counterparty Verification",
+      "REPORTING": "Reporting",
+      "GOOGLE_MY_BUSINESS": "Google My Business"
+    },
+    "CONTENT": {
+      "DO_BUSINESS": "Do business and the Bank will help in legal, accounting and foreign economic matters.",
+      "CHECK_INFORMATION": "Verify information about your partners in government registries.",
+      "COMPILE_REPORT": "Compile and submit PE reports online with feedback",
+      "EFFECTIVE_FREE_CHANNEL": "An effective and free channel for finding new customers along with FUIB and Google"
+    }
+  }
+}

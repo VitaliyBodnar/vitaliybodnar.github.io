@@ -1,0 +1,215 @@
+@import "mixins/switcher";
+@import "variables";
+
+.custom-switch {
+  user-select: none;
+
+  .custom-control-label {
+    padding-left: .5rem;
+
+    &:after {
+      font: 10px/20px 'project-icons';
+      color: $white;
+      text-align: center;
+    }
+
+    &:before {
+      background-color: $white !important;
+    }
+  }
+
+  .custom-control-label, .custom-control-input {
+    cursor: pointer;
+  }
+
+  .custom-control-input:not(:checked) ~ .custom-control-label:after {
+    content: "\e902";
+    transform: scale(1.2);
+  }
+
+  .custom-control-input:checked ~ .custom-control-label {
+    font-weight: 700;
+
+    &:after {
+      content: "\e906";
+      transform: translateX($custom-switch-width - $custom-control-indicator-size) scale(1.2);
+    }
+  }
+
+  .custom-control-input:focus ~ .custom-control-label:before {
+    box-shadow: none;
+  }
+
+  .custom-control-input:not(:disabled):not(:checked) {
+    @include switch-states('~ .custom-control-label:after', $gray-400, $gray-500, $gray-600);
+
+    ~ .custom-control-label:before {
+      border-color: $gray-400 !important;
+    }
+  }
+
+  .custom-control-input:not(:disabled):checked {
+    @include switch-states('~ .custom-control-label:after', $red, $red-lighten, $red-darken);
+
+    ~ .custom-control-label {
+      &:before {
+        border-color: $red !important;
+      }
+
+      &:after {
+        box-shadow: 0 1px 5px -1px $red;
+      }
+    }
+  }
+
+  .custom-control-input:disabled ~ .custom-control-label {
+    &:before {
+      border-color: $gray-200;
+    }
+
+    &:after {
+      background-color: $gray-200;
+    }
+  }
+}
+
+// Checkboxes and radios
+//
+// Base class takes care of all the key behavioral aspects.
+
+.custom-control {
+  position: relative;
+  display: block;
+  min-height: $font-size-base * $line-height-base;
+  padding-left: $custom-control-gutter + $custom-control-indicator-size;
+}
+
+.custom-control-input {
+  position: absolute;
+  left: 0;
+  z-index: -1; // Put the input behind the label so it doesn't overlay text
+  width: $custom-control-indicator-size;
+  height: ($font-size-base * $line-height-base + $custom-control-indicator-size) / 2;
+  opacity: 0;
+
+  &:checked ~ .custom-control-label::before {
+    color: $custom-control-indicator-checked-color;
+    border-color: $custom-control-indicator-checked-border-color;
+    @include gradient-bg($custom-control-indicator-checked-bg);
+    @include box-shadow($custom-control-indicator-checked-box-shadow);
+  }
+
+  &:focus ~ .custom-control-label::before {
+    // the mixin is not used here to make sure there is feedback
+    @if $enable-shadows {
+      box-shadow: $input-box-shadow, $input-focus-box-shadow;
+    } @else {
+      box-shadow: $custom-control-indicator-focus-box-shadow;
+    }
+  }
+
+  &:focus:not(:checked) ~ .custom-control-label::before {
+    border-color: $custom-control-indicator-focus-border-color;
+  }
+
+  &:not(:disabled):active ~ .custom-control-label::before {
+    color: $custom-control-indicator-active-color;
+    background-color: $custom-control-indicator-active-bg;
+    border-color: $custom-control-indicator-active-border-color;
+    @include box-shadow($custom-control-indicator-active-box-shadow);
+  }
+
+  // Use [disabled] and :disabled to work around https://github.com/twbs/bootstrap/issues/28247
+  &[disabled],
+  &:disabled {
+    ~ .custom-control-label {
+      color: $custom-control-label-disabled-color;
+
+      &::before {
+        background-color: $custom-control-indicator-disabled-bg;
+      }
+    }
+  }
+}
+
+// Custom control indicators
+//
+// Build the custom controls out of pseudo-elements.
+
+.custom-control-label {
+  position: relative;
+  margin-bottom: 0;
+  color: $custom-control-label-color;
+  vertical-align: top;
+  cursor: $custom-control-cursor;
+
+  // Background-color and (when enabled) gradient
+  &::before {
+    position: absolute;
+    top: ($font-size-base * $line-height-base - $custom-control-indicator-size) / 2;
+    left: -($custom-control-gutter + $custom-control-indicator-size);
+    display: block;
+    width: $custom-control-indicator-size;
+    height: $custom-control-indicator-size;
+    pointer-events: none;
+    content: "";
+    background-color: $custom-control-indicator-bg;
+    border: $custom-control-indicator-border-color solid $custom-control-indicator-border-width;
+    @include box-shadow($custom-control-indicator-box-shadow);
+  }
+
+  // Foreground (icon)
+  &::after {
+    position: absolute;
+    top: ($font-size-base * $line-height-base - $custom-control-indicator-size) / 2;
+    left: -($custom-control-gutter + $custom-control-indicator-size);
+    display: block;
+    width: $custom-control-indicator-size;
+    height: $custom-control-indicator-size;
+    content: "";
+    background: no-repeat 50% / #{$custom-control-indicator-bg-size};
+  }
+}
+
+// switches
+//
+// Tweak a few things for switches
+
+.custom-switch {
+  padding-left: $custom-switch-width + $custom-control-gutter;
+
+  .custom-control-label {
+    &::before {
+      left: -($custom-switch-width + $custom-control-gutter);
+      width: $custom-switch-width;
+      pointer-events: all;
+      // stylelint-disable-next-line property-blacklist
+      border-radius: $custom-switch-indicator-border-radius;
+    }
+
+    &::after {
+      top: add(($font-size-base * $line-height-base - $custom-control-indicator-size) / 2, $custom-control-indicator-border-width * 2);
+      left: add(-($custom-switch-width + $custom-control-gutter), $custom-control-indicator-border-width * 2);
+      width: $custom-switch-indicator-size;
+      height: $custom-switch-indicator-size;
+      background-color: $custom-control-indicator-border-color;
+      // stylelint-disable-next-line property-blacklist
+      border-radius: $custom-switch-indicator-border-radius;
+      @include transition(transform .15s ease-in-out, $custom-forms-transition);
+    }
+  }
+
+  .custom-control-input:checked ~ .custom-control-label {
+    &::after {
+      background-color: $custom-control-indicator-bg;
+      transform: translateX($custom-switch-width - $custom-control-indicator-size);
+    }
+  }
+
+  .custom-control-input:disabled {
+    &:checked ~ .custom-control-label::before {
+      background-color: $custom-control-indicator-checked-disabled-bg;
+    }
+  }
+}
+

@@ -1,0 +1,30 @@
+
+@media screen and (orientation: landscape) and (min-device-width: 319px) and (max-device-width: 1025px) {
+
+  fuib-login {
+    top: 54px !important;
+    height: 500px !important;
+    padding-bottom: 200px;
+    left: 0;
+    overflow-y: scroll;
+    width: 100%;
+
+    .form-holder {
+      height: 600px !important; // grablya
+    }
+  }
+
+  fuib-header.login-form-opened {
+    position: static !important;
+  }
+
+  .collapse {
+    position: static !important;
+  }
+
+  .trigger-collapse {
+    &.show {
+      position: static;
+    }
+  }
+}

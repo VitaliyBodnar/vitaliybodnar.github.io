@@ -1,0 +1,53 @@
+@import "~bootstrap/scss/mixins";
+@import "../variables";
+@import "../overrides-grid";
+
+// for h1-h6 adaptability
+@mixin responsive-headers($selector, $font-size-tablet, $font-size-mobile) {
+  #{$selector}:not(.non-responsive) {
+    //tablet
+    @include media-breakpoint-down(md) {
+      font-size: $font-size-tablet;
+    }
+
+    //mobile
+    @include media-breakpoint-down(sm) {
+      font-size: $font-size-mobile;
+    }
+  }
+}
+
+// for font-weight
+@mixin font-weight($selector, $weight) {
+  #{$selector} {
+    font-family: 'gilroy' !important;
+    font-weight: #{$weight};
+  }
+}
+
+// for creating helper classes that specify font-size
+@mixin font-size($seletor, $font-size) {
+  #{$seletor} {
+    font-size: $font-size !important;
+  }
+}
+
+@mixin font-size-md($seletor, $font-size) {
+  #{$seletor} {
+    &-md {
+      @include media-breakpoint-up(md) {
+        font-size: $font-size !important;
+      }
+    }
+  }
+}
+
+@mixin font-size-lg($seletor, $font-size) {
+  #{$seletor} {
+    &-lg {
+      @include media-breakpoint-up(lg) {
+        font-size: $font-size !important;
+      }
+    }
+  }
+}

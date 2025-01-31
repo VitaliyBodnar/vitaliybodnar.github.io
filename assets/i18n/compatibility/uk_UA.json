@@ -1,0 +1,8 @@
+{
+  "COMPATIBILITY": {
+    "UNCOMPATIBLE_MESSAGE_MAIN": "ПУМБ Бізнес несумісний із вашим браузером.",
+    "UNCOMPATIBLE_MESSAGE": "Але ви можете увійти в режимі обмеженої функціональності. Завантажте останню версію браузера",
+    "UNCOMPATIBLE_MESSAGE_OR": "чи",
+    "UNCOMPATIBLE_MESSAGE_ENDING": " для користування всіма перевагами"
+  }
+}

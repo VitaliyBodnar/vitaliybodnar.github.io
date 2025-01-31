@@ -1,0 +1,192 @@
+// input phone
+.input-phone {
+  .input-group-prepend .input-group-text {
+    padding-right: 0.05rem;
+  }
+
+  .form-control {
+    padding-left: 0.25rem;
+  }
+}
+
+// input group
+.input-group {
+  > .form-control,
+  > .custom-select {
+    &:not(:last-child) {
+      border-right: 0;
+    }
+
+    &:not(:first-child) {
+      border-left: 0;
+    }
+  }
+}
+
+.input-group-prepend, .input-group-append {
+  position: relative;
+  z-index: 1;
+}
+
+.input-group-prepend {
+  .input-group-text {
+    border-right: 0;
+  }
+}
+
+.input-group-append {
+  .input-group-text {
+    border-left: 0;
+  }
+}
+
+// input icon
+.input-group-icon {
+  font-size: 1.5rem;
+  color: $grey-40;
+  padding: 0.6875rem;
+
+  &.btn:disabled {
+    color: $grey-30 !important;
+  }
+}
+
+// labels
+label {
+  font-size: $font-size-sm;
+}
+
+// input/textarea/select hover
+@include form-control-outline(':hover', $grey-60, $grey-50, '.input-group:hover, label[for]:hover + .input-group');
+
+// input/textarea/select focus
+@include form-control-outline(':focus', $grey-60, $grey-40, '.is-focused');
+
+// input/textarea/select invalid
+@include form-control-outline('.is-invalid:not([readonly]):not(.is-readonly):not(:disabled)', $error);
+
+// input/textarea/select readonly
+.form-control[readonly]:not(.custom-input-dropdown), .is-readonly .input-group-text, .form-control:disabled {
+  border-color: $grey-30 !important;
+  color: $grey-30 !important;
+  box-shadow: none !important;
+}
+
+.is-readonly {
+  color: $grey-40 !important;
+  box-shadow: none !important;
+}
+
+// select
+select.form-control {
+  appearance: none;
+  padding-right: 40px;
+
+  @include select-icon-change-color('&', $grey-40);
+  @include select-icon-change-color('&:hover', $grey-50);
+  @include select-icon-change-color('&:focus', $grey-50);
+  @include select-icon-change-color('&:disabled', $grey-30);
+  @include select-icon-change-color('&.is-invalid:not(:disabled)', $error);
+}
+
+// remove outline (dotted border) from select box in FF
+select:-moz-focusring {
+  color: transparent !important;
+  text-shadow: 0 0 0 #000 !important;
+}
+
+// textarea
+textarea {
+  min-height: 3rem;
+}
+
+// .input-message-container (place for displaying errors or other text messages, has height of one row)
+.input-message-container {
+  min-height: 1.5rem;
+  margin-bottom: -1.5rem;
+
+  > * {
+    margin-bottom: 0;
+  }
+}
+
+// .error-list
+.error-list {
+  list-style: none;
+  padding: 0;
+
+  @include text-message-with-icon('li', "\e940", $error);
+}
+
+// .error-message
+@include text-message-with-icon('.error-message', "\e940", $error);
+
+// .info-message
+@include text-message-with-icon('.info-message', "\e904");
+
+// .requirements-list
+.requirements-list {
+  list-style: none;
+  padding: 0;
+
+  @include text-message-with-icon('li', '\e906', $success);
+
+  li.error {
+    color: $grey-60;
+    position: relative;
+
+    &:before {
+      content: '';
+      width: .75rem;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      left: 4px;
+      top: 50%;
+      margin-top: -2px;
+      border: 2px solid;
+      border-radius: 50%;
+      color: $gray-400;
+    }
+  }
+}
+
+// characters left number for textarea
+.characters-left {
+  float: right;
+  margin-left: auto;
+  margin-right: 15px;
+  margin-top:   -1.5em;
+  opacity:      0.3;
+}
+
+// IE fix (removes default buttons for input fields)
+::-ms-reveal,
+::-ms-clear {
+  display: none;
+}
+
+.popover-question {
+  right: -24px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  position: absolute;
+
+  i {
+    width: 100%;
+    height: 100%;
+    right: 0 !important;
+    top: 0 !important;
+    transform: none !important;
+  }
+
+  &__absolute {
+    position: absolute;
+    right: -24px;
+    top: 2px;
+  }
+}

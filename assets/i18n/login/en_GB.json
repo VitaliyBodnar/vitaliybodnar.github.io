@@ -1,0 +1,53 @@
+{
+  "LOGIN": {
+    "ENTRY": "Login",
+    "FORBIDDEN_FOR_RUSSIANS": "Everyone except the Russians",
+    "FORGOT_PASSWORD": "Show password",
+
+    "LABEL": {
+      "LOGIN": "Login",
+      "SHOW_PASSWORD": "Show password",
+      "PASSWORD": "Password"
+    },
+
+    "PLACEHOLDER": {
+      "ENTER_YOUR_LOGIN": "Enter your username",
+      "ENTER_YOUR_PASSWORD": "Enter your password"
+    },
+
+    "TOOLTIP": {
+      "SHOW_PASSWORD": "Show password",
+      "HIDE_PASSWORD": "Hide password",
+      "CAPTCHA_REFRESH": "Refresh"
+    },
+
+    "AUTH": {
+      "CPTCH001": "Incorrect captcha",
+      "CPTCH002": "Wrong login or password",
+      "AUTH": "Wrong login or password",
+      "VAUTH500": "An unexpected error occurred. <br> Please try again later",
+      "VAUTH001": "Account locked until: {{attr}}",
+      "VAUTH002": "Wrong login or password. Attempts left: {{attr}}",
+      "VAUTH003": "Account locked. Please contact your personal manager",
+      "VAUTH004": "Account locked until: {{attr}}",
+      "VAUTH005": "Wrong login or password. Attempts left: {{attr}}",
+      "VAUTH006": "Account locked. Please contact your personal manager",
+      "VAUTH008": "Требуется подтверждения входа через ОТР",
+      "ERROR": "An unexpected error occurred. <br> Please try again later",
+      "ERROR_WO": "Invalid SMS code. Attempts left: {{attr}}",
+      "ERROR_OTP_EXP": "OTP expired",
+      "ERROR_OTP_OUT": "Wrong OTP entered 3 times in a row"
+    },
+    "CHECK_OTP": "OTP is checking",
+    "SEND_OTP": "OTP is sending </br> Wait SMS on your phone",
+
+    "LABELS": {
+      "OTP": "Code from SMS",
+      "TIME_LEFT": "left"
+    },
+
+    "OR": "or",
+    "DOWNLOAD_APP": "download app",
+    "APP_NAME": "ПУМБ Бізнес"
+  }
+}

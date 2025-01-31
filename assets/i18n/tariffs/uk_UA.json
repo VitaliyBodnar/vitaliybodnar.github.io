@@ -1,0 +1,99 @@
+{
+  "TARIFFS": {
+    "TARIFF": "Тарифи",
+    "CONDITIONS": {
+      "FIRST_MONTH_FREE": "перший місяць безкоштовно",
+      "OPENING_CURRENT_ACCOUNTS_2": "Відкриття поточних рахунків",
+      "INTERNET_BANKING_3": "Інтернет - банкінг",
+      "SMS_BANKING_4": "SMS - банкінг на 1 номер телефону",
+      "MASTER_VISA_DEBIT_BUSINESS": "Картка MasterCard/Visa",
+      "VIRTUAL_CARD_5_1": "Віртуальна картка на вибір: Visa Business Virtual або MCDebit Business Virtual",
+      "PAYMENTS_IN_UAH_WITHIN_FUIB_6": "Платежі в гривні в межах ПУМБ",
+      "PAYMENTS_IN_UAH_OUTSIDE_FUIB_7": "Платежі в гривні за межі ПУМБ,",
+      "PAYMENTS_IN_UAH_OUTSIDE_FUIB_7_1": "в залежності від суми:",
+      "PAYMENTS_IN_UAH_OUTSIDE_FUIB_7_2": "до 5 000 грн.",
+      "PAYMENTS_IN_UAH_OUTSIDE_FUIB_7_3": "від 5 000 до 100 000 грн.",
+      "PAYMENTS_IN_UAH_OUTSIDE_FUIB_7_4": "від 100 000 грн.",
+      "CORPORATE_CARD_CASH_8": "Зняття готівки за корпоративною карткою",
+      "CASH_CREDITING_ACCOUN_9": "Зарахування готівкових коштів на власний рахунок",
+      "DEPOSITING_CASH_ACCOUN_9_2": "Внесення готівкових коштів на власний рахунок через ПТКС",
+      "FOREIGN_CURRENCY_PAYMENTS_10": "Платежі в іноземній валюті",
+      "FOREIGN_CURRENCY_PURCHASE_11": "Купівля іноземної валюти",
+      "SALE_FOREIGN_CURRENCY_12": "Продаж іноземної валюти",
+      "ABOUT_ALL": "Завантажити",
+      "TEN_CARDS": "10 карток"
+    },
+
+    "FOR_MOBILE": {
+      "LOYALTY_PROGRAM_1": "плата за обслуговування не стягується, якщо середньомісячний залишок на рахунку"
+    },
+
+    "TARIFF_PLANS": {
+      "ORDER": "Замовити",
+      "GET": "Отримати",
+      "BASE": {
+        "NAME": "всеМІНІМУМ",
+        "PRICE": "200 грн/міс",
+        "OPENING_ACCOUNTS_2": "безкоштовно",
+        "I-BANKING_3": "безкоштовно",
+        "SMS_BANKING_4": "безкоштовно",
+        "MASTERCARD_BANKING_5": "одна безкоштовно",
+        "WITHIN_FUIB_6": "безкоштовно",
+        "OUTSIDE_FUIB_7": "10 шт. в місяць",
+        "OUTSIDE_FUIB_7_2": "2 грн.",
+        "OUTSIDE_FUIB_7_3": "3 грн.",
+        "OUTSIDE_FUIB_7_4": "12 грн.",
+        "CARD_CASH_8": "0,75%",
+        "CREDITING_ACCOUN_9": "0,2% від суми, min 10 грн",
+        "DEPOSITING_ACCOUN_9_2": "безкоштовно",
+        "CURRENCY_PAYMENTS_10": "0,15% від суми платежу",
+        "CURRENCY_PURCHASE_11": "0,5%",
+        "FOREIGN_CURRENCY_12": "0,4%",
+        "UNLIMIT": "необмежена кількість",
+        "TEN_CARDS": "10 карток"
+      },
+
+      "NATIONAL": {
+        "NAME": "всеОПТИМУМ",
+        "PRICE": "350 грн/міс",
+        "OPENING_ACCOUNTS_2": "безкоштовно",
+        "I-BANKING_3": "безкоштовно",
+        "SMS_BANKING_4": "безкоштовно",
+        "MASTERCARD_BANKING_5": "дві безкоштовно",
+        "WITHIN_FUIB_6": "безкоштовно",
+        "OUTSIDE_FUIB_7_2": "безкоштовно",
+        "OUTSIDE_FUIB_7_3": "2 грн.",
+        "OUTSIDE_FUIB_7_4": "11 грн.",
+        "CARD_CASH_8": "0,75%",
+        "CREDITING_ACCOUN_9": "0,1% від суми, min 10 грн",
+        "DEPOSITING_ACCOUN_9_2": "безкоштовно",
+        "CURRENCY_PAYMENTS_10": "0,15% від суми платежу",
+        "CURRENCY_PURCHASE_11": "0,4%",
+        "FOREIGN_CURRENCY_12": "0,3%",
+        "UNLIMIT": "необмежена кількість",
+        "TEN_CARDS": "10 карток"
+      },
+
+      "INTERNATIONAL": {
+        "NAME": "всеПРЕМІУМ",
+        "PRICE": "750 грн/міс",
+        "OPENING_ACCOUNTS_2": "безкоштовно",
+        "I-BANKING_3": "безкоштовно",
+        "SMS_BANKING_4": "безкоштовно",
+        "MASTERCARD_BANKING_5": "дві безкоштовно",
+        "WITHIN_FUIB_6": "безкоштовно",
+        "OUTSIDE_FUIB_7_2": "безкоштовно",
+        "OUTSIDE_FUIB_7_3": "безкоштовно",
+        "OUTSIDE_FUIB_7_4": "11 грн.",
+        "CARD_CASH_8": "0,75%",
+        "CREDITING_ACCOUN_9": "0,1% від суми, min 10 грн",
+        "DEPOSITING_ACCOUN_9_2": "безкоштовно",
+        "CURRENCY_PAYMENTS_10": "0,1%  від суми платежу",
+        "CURRENCY_PURCHASE_11": "від 0,15%",
+        "FOREIGN_CURRENCY_12": "від 0,15%",
+        "UNLIMIT": "необмежена кількість",
+        "TEN_CARDS": "10 карток"
+      }
+    }
+  }
+}

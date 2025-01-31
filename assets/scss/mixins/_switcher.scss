@@ -1,0 +1,15 @@
+
+/*#region CUSTOM SWITCHER*/
+// for visualizing switch states
+@mixin switch-states($selector, $bg-initial, $bg-hover-focus, $bg-active) {
+  &:not(:disabled) {
+    #{$selector} { background-color: $bg-initial }
+
+    &:hover, &:focus {
+      #{$selector} { background-color: $bg-hover-focus}
+    }
+
+    &:active #{$selector} { background-color: $bg-active }
+  }
+}
+/*#endregion custom switcher*/

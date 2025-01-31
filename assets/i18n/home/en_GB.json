@@ -1,0 +1,29 @@
+{
+  "NAV": {
+    "TARIFFS": "Tariffs",
+    "INTERNET_BANKING": "Internet-banking",
+    "ONLINE_BANKING": "Online-banking",
+    "MICROCREDIT": "Credit",
+    "WORKING_WITH_CURRENCY": "Useful services",
+    "USEFUL_SERVICES": "Corinth services DIGITAL",
+    "USER_MANUAL": "User manual",
+    "USER_MANUAL_FOR_MOBILE": "Manual",
+    "SUPPORT_PHONE": "Support business-clients",
+    "SUPPORT_PHONES": "Support phones",
+    "ABOUT_PERSONAL_DATA": "Personal data notice",
+    "ABOUT_PERSONAL_DATA_FOR_MOBILE": "Notice",
+
+    "FOOTER": {
+      "INFO_TEXT": {
+        "DAILY": "at 9 am - 6 pm Mn-Fr, except public holidays *",
+        "INTERNATIONAL_CALLS": "for international calls from 9 am - 6 pm Mn-Fr, excepting holidays **",
+        "SUPPORT_PAYMENT_CARD": "regarding support for payment card owners **",
+        "FREE_CHARGE_UKRAINE": "* free in Ukraine from all operators",
+        "ACCORDING_TARIFFS_OPERATORS": "** according to the tariffs of the operator",
+        "FUIB_ALL_BANKING_SERVICES": "AO PUMB. All types of banking services.",
+        "GENERAL_LICENSE_NBU": "General license of NBU No. 8-2 of February 12, 2015. Banking license of NBU No. 8 of October 6, 2011",
+        "ACTUAL_ADDRESS": "Actual address: <br> 04070, Kiev, Andreevskaya str. 4"
+      }
+    }
+  }
+}
