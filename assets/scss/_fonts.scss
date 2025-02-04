@@ -1,0 +1,132 @@
+$font-path: '/assets/fonts/';
+
+//@font-face {
+//  font-family: gilroy-black;
+//  src: url($font-path + 'Gilroy/Gilroy-Black.ttf') format("truetype");
+//  font-display: swap;
+//}
+
+//@font-face {
+//  font-family: gilroy-black-italic;
+//  src: url($font-path + 'Gilroy/Gilroy-BlackItalic.ttf') format("truetype");
+//  font-display: swap;
+//}
+
+@font-face {
+  font-family: 'gilroy';
+  src: url($font-path + 'Gilroy/Gilroy-Bold.woff2') format("woff2");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+}
+
+//@font-face {
+//  font-family: gilroy-bold-italic;
+//  src: url($font-path + 'Gilroy/Gilroy-BoldItalic.ttf') format("truetype");
+//  font-display: swap;
+//}
+
+//@font-face {
+//  font-family: gilroy-extrabold;
+//  src: url($font-path + 'Gilroy/Gilroy-Extrabold.ttf') format("truetype");
+//  font-display: swap;
+//}
+
+//@font-face {
+//  font-family: gilroy-extrabold-italic;
+//  src: url($font-path + 'Gilroy/Gilroy-ExtraboldItalic.ttf') format("truetype");
+//  font-display: swap;
+//}
+
+//@font-face {
+//  font-family: gilroy-heavy;
+//  src: url($font-path + 'Gilroy/Gilroy-Heavy.ttf') format("truetype");
+//  font-display: swap;
+//}
+
+//@font-face {
+//  font-family: gilroy-heavy-italic;
+//  src: url($font-path + 'Gilroy/Gilroy-HeavyItalic.ttf') format("truetype");
+//  font-display: swap;
+//}
+
+//@font-face {
+//  font-family: gilroy-light;
+//  src: url($font-path + 'Gilroy/Gilroy-Light.ttf') format("truetype");
+//  font-display: swap;
+//}
+
+//@font-face {
+//  font-family: gilroy-light-italic;
+//  src: url($font-path + 'Gilroy/Gilroy-LightItalic.ttf') format("truetype");
+//  font-display: swap;
+//}
+
+@font-face {
+  font-family: 'gilroy';
+  src: url($font-path + 'Gilroy/Gilroy-Medium.woff2') format("woff2"),
+  url($font-path + 'Gilroy/Gilroy-Medium.woff') format("woff");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+}
+
+//@font-face {
+//  font-family: gilroy-medium-italic;
+//  src: url($font-path + 'Gilroy/Gilroy-MediumItalic.ttf') format("truetype");
+//  font-display: swap;
+//}
+
+@font-face {
+  font-family: 'gilroy';
+  src: url($font-path + 'Gilroy/Gilroy-Regular.woff2') format("woff2"),
+  url($font-path + 'Gilroy/Gilroy-Regular.woff') format("woff");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+//@font-face {
+//  font-family: gilroy-regular-italic;
+//  src: url($font-path + 'Gilroy/Gilroy-RegularItalic.ttf') format("truetype");
+//  font-display: swap;
+//}
+
+@font-face {
+  font-family: 'gilroy';
+  src: url($font-path + 'Gilroy/Gilroy-SemiBold.woff2') format("woff2"),
+  url($font-path + 'Gilroy/Gilroy-SemiBold.woff') format("woff");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+}
+
+//@font-face {
+//  font-family: gilroy-semibold-italic;
+//  src: url($font-path + 'Gilroy/Gilroy-SemiboldItalic.ttf') format("truetype");
+//  font-display: swap;
+//}
+
+//@font-face {
+//  font-family: gilroy-thin;
+//  src: url($font-path + 'Gilroy/Gilroy-Thin.ttf') format("truetype");
+//  font-display: swap;
+//}
+
+//@font-face {
+//  font-family: gilroy-thin-italic;
+//  src: url($font-path + 'Gilroy/Gilroy-ThinItalic.ttf') format("truetype");
+//  font-display: swap;
+//}
+
+//@font-face {
+//  font-family: gilroy-ultra-light;
+//  src: url($font-path + 'Gilroy/Gilroy-ULtraLight.ttf') format("truetype");
+//  font-display: swap;
+//}
+
+//@font-face {
+//  font-family: gilroy-ultra-light-italic;
+//  src: url($font-path + 'Gilroy/Gilroy-UltraLightItalic.ttf') format("truetype");
+//  font-display: swap;
+//}

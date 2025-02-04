@@ -1,0 +1,80 @@
+// for visualizing state of btn: hover/focus
+@mixin btn-hover-focus($bg-color: null, $border-color: null, $color: null) {
+  &:not(:disabled) {
+    &:hover {
+      @if $bg-color {
+        background-color: $bg-color;
+      }
+      @if $border-color {
+        border-color: $border-color;
+      }
+      @if $color {
+        color: $color;
+      }
+    }
+  }
+}
+
+// for visualizing state of btn: active/.active
+@mixin btn-active($bg-color: null, $border-color: null, $color: null) {
+  &.btn:not(:disabled) {
+    &:active, &.active {
+      @if $bg-color {
+        background-color: $bg-color;
+      }
+      @if $border-color {
+        border-color: $border-color;
+      }
+      @if $color {
+        color: $color;
+      }
+    }
+  }
+}
+
+// for visualizing state of btn: disabled
+@mixin btn-disabled($bg-color: null, $border-color: null, $color: null) {
+  &:disabled {
+    @if $bg-color {
+      background-color: $bg-color;
+    }
+    @if $border-color {
+      border-color: $border-color;
+    }
+    @if $color {
+      color: $color;
+    }
+
+    cursor: not-allowed;
+  }
+}
+
+// helps to generate icon color for different buttons
+@mixin btn-with-icon($icon-color: null, $icon-color-hover-focus-active: null) {
+  @if $icon-color {
+    i {
+      color: $icon-color
+    }
+  }
+
+  @if $icon-color-hover-focus-active {
+    &:hover, &:focus, &:active {
+      i {
+        color: $icon-color-hover-focus-active
+      }
+    }
+  }
+
+  &:disabled i {
+    color: $gray-400
+  }
+}
+
+// helps to generate btn with no-padding, no-border, no-background, width & height auto
+@mixin btn-plain() {
+  width: auto !important;
+  height: auto !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+}

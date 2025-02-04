@@ -1,0 +1,321 @@
+@import "mixins";
+@import "variables";
+
+// headers (h1-h6, .h1-.h6)
+@include responsive-headers('h1, .h1', $h2-font-size, $font-size-base * 2.25);
+@include responsive-headers('h2, .h2', $h3-font-size, $font-size-base * 1.875);
+@include responsive-headers('h3, .h3', $h4-font-size, $font-size-base * 1.625);
+@include responsive-headers('h4, .h4', $h5-font-size, $h6-font-size);
+@include responsive-headers('h5, .h5', $h6-font-size, $font-size-base);
+@include responsive-headers('h6, .h6', $font-size-base, $font-size-sm);
+
+// h1 font-weight
+@include font-weight('h1', 700);
+
+// .p1, .p2, .p3
+@include font-size('.p1', $font-size-base);
+@include font-size('.p2', $font-size-sm);
+@include font-size('.p3', $font-size-base * .75);
+
+// .p1-md, .p2-md, .p3-md
+@include font-size-md('.p1', $font-size-base);
+@include font-size-md('.p2', $font-size-sm);
+@include font-size-md('.p3', $font-size-base * .75);
+
+// .p1-lg, .p2-lg, .p3-lg
+@include font-size-lg('.p1', $font-size-base);
+@include font-size-lg('.p2', $font-size-sm);
+@include font-size-lg('.p3', $font-size-base * .75);
+
+// TODO: refactor styles
+
+h1, .h1 {
+  font-family: 'gilroy';
+  font-weight: 700;
+  font-size: 5rem;
+  color: $grey-70;
+
+  @include for-phone {
+    font-size: 2.25rem;
+    line-height: 40px;
+    letter-spacing: 0.3px;
+  }
+
+  @include for-tablet {
+    font-size: 3.75rem;
+    line-height: 71px;
+    letter-spacing: -0.5px;
+  }
+
+  & + p {
+    font-size: 1.5rem;
+    font-family: 'gilroy';
+    font-weight: 700;
+  }
+}
+
+h1 + p {
+  color: $grey-70;
+
+  @include for-tablet {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.35px;
+  }
+
+  @include for-phone {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.35px;
+  }
+}
+
+h2, h4, h5 {
+ ~ p {
+   font-size: $font-size-sm;
+ }
+}
+
+img + p, img + p + p {
+  font-family: 'gilroy';
+  font-weight: 700;
+  color: $grey-60;
+  font-size: 1rem;
+  line-height: 24px;
+  letter-spacing: 0.18px;
+
+  @include for-tablet {
+  font-size: 0.875rem;
+  line-height: 20px;
+  }
+
+  @include for-phone {
+  font-size: 0.813rem;
+  line-height: 18px;
+  letter-spacing: 0.18px;
+  }
+}
+
+
+.title__home-page {
+  font-size: 3rem;
+  line-height: 3.75rem;
+  margin-bottom: 4rem;
+  color: $grey-70;
+  font-family: 'gilroy';
+  font-weight: 700;
+
+  @include for-tablet {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  @include for-phone {
+    font-size: 2.1rem;
+    margin-bottom: 2rem;
+    line-height: 2.1rem;
+  }
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'gilroy';
+  font-weight: 700;
+  color: $grey-70;
+
+  @include for-tablet {
+    font-size: 2.0rem;
+    line-height: 40px;
+    letter-spacing: 0.25px;
+  }
+
+  @include for-phone {
+    font-size: 1.6rem;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+  }
+}
+
+h2 + span {
+  font-size: 16px;
+  font-family: 'gilroy';
+  font-weight: 700;
+  color: $grey-60;
+  line-height: 24px;
+  letter-spacing: 0.18px;
+
+  @include for-tablet {
+    font-size: 14px;
+  }
+
+  @include for-phone {
+    line-height: 20px;
+  }
+
+}
+
+h2 + p, h2 + p + p, h5 + p, p {
+  color: $grey-60;
+  font-family: 'gilroy';
+  font-weight: 700;
+
+  @include for-tablet {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.18px;
+  }
+
+  @include for-phone {
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.35px;
+  }
+}
+// color for tag 'p' in block subheader for page - IB
+ .color-grey-70 {
+  color: $grey-70 !important;
+}
+
+// color for i-question PRIMARY-MEDIUM
+.color-grey-50 {
+  color: $grey-50;
+}
+
+.color-grey-60 {
+  color: $grey-60;
+}
+
+h5 + p {
+  font-family: 'gilroy';
+  font-weight: 500;
+}
+//h3 - used in subheader
+h3 {
+  font-family: 'gilroy';
+  font-weight: 700;
+  font-size: 3rem;
+
+  @include for-tablet {
+    font-size: 1.87rem;
+    line-height: 60px;
+    letter-spacing: 2px;
+  }
+
+  @include for-phone {
+    font-size: 1.5rem;
+  }
+
+  + p {
+    font-family: 'gilroy';
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #001934;
+  }
+}
+
+//h4 - used in page services after section google-map
+h4 {
+  font-family: 'gilroy' !important;
+  font-weight: 700 !important;
+  font-size: 2.12rem;
+  line-height: 40px;
+  letter-spacing: 0.25px;
+  color: $grey-70;
+
+  @include for-tablet {
+    font-size: 1.5rem;
+    line-height: 28px;
+    letter-spacing: 0.35px;
+  }
+
+  @include for-phone {
+    font-size: 1.25rem;
+    line-height: 24px;
+  }
+
+  + p {
+    font-family: 'gilroy';
+    font-weight: 500;
+  }
+}
+
+//h5 - used in all page after title (h2)
+h5 {
+  font-family: 'gilroy';
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 28px;
+  letter-spacing: 0.35px;
+  color: $grey-70;
+
+  @include for-tablet {
+    font-size: 1.25rem;
+    line-height: 25px;
+    letter-spacing: 0.4px;
+  }
+
+  @include for-phone {
+    font-size: 1.12rem;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+  }
+}
+
+h6 {
+  font-family: 'gilroy';
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+
+  @include for-tablet {
+    font-size: 1rem;
+    line-height: 24px;
+  }
+
+  @include for-phone {
+    font-size: 0.75rem;
+  }
+}
+
+.content-list {
+  & {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  li {
+    font-family: 'gilroy';
+    font-weight: 700;
+    font-size: 1rem;
+    color: $grey-60;
+    list-style: none;
+
+    @include for-tablet {
+      font-size: 0.87rem;
+      line-height: 20px;
+      letter-spacing: 0.25px;
+    }
+
+    @include for-phone {
+      font-size: 0.81rem;
+      line-height: 20px;
+      letter-spacing: 0.25px;
+    }
+  }
+}
+
+section {
+  //min-height: 60vh;
+  @include for-tablet {
+    //min-height: 50vh;
+  }
+  @include for-phone {
+    //min-height: 25vh;
+  }
+}
+
+// hack for clients messages
+.client-message p {
+  font-size: 8px!important;
+}

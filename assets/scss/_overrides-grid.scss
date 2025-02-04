@@ -1,0 +1,8 @@
+// overrides of native bootstrap 4 variables conform this project grid system
+$grid-breakpoints: (
+  xs: 0,
+  sm: 320px,
+  md: 767px,
+  lg: 1280px,
+  xl: 1920px
+);
